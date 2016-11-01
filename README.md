@@ -1,8 +1,9 @@
-### **React Learning** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/enaqx/awesome-react.svg?branch=master)](https://travis-ci.org/enaqx/awesome-react)
+### **React Learning** 
 
 This react learning is based on Mitrais CDC JS experience and idea on [Pete Hunt react-howto](https://github.com/petehunt/react-howto)
+and [Dont-make-learning-react-more-difficult-than-it-is] (https://www.triplet.fi/blog/dont-make-learning-react-more-difficult-than-it-is)
 
-If you’re new to React (or frontend in general) you may find the ecosystem confusing. There are a few reasons for this.
+React itself has a quite small API surface to learn, and in theory, it should be easy to grasp. Unfortunately, the learning resources are making things look far more complex than it actually is and if you’re new to React (or frontend in general) you may find the ecosystem confusing. There are a few reasons for this.
 
 - React has historically been targeted at early-adopters and experts
 - Facebook only open-sources what it actually uses, so it doesn’t focus on tooling for smaller-than-Facebook projects
@@ -20,14 +21,6 @@ You should learn, in this order, without skipping ahead or learning concurrently
 - Redux
 
 You don't need to learn all of these to be productive with React. Only move to the next step if you have a problem that needs to be solved.
-
-Additionally, there are a few topics that are often mentioned in the React community that are "bleeding edge". The topics below are interesting, but they're difficult to understand, are far less popular than the above topics and aren't required for most apps.
-
-    Inline styles
-    Server rendering
-    Immutable.js
-    Relay, Falcor, etc
-
 
 ### React Index
 
@@ -64,32 +57,63 @@ Additionally, there are a few topics that are often mentioned in the React commu
 
 
 ---
-### React
+### React itself
 > JavaScript Library for building User Interfaces
 
 #### React General Resources
-* [React Official Site](https://mva.microsoft.com/en-us/training-courses/react-the-definitive-beginner-s-guide-16547)
+* [React: The Definitive Beginner's Guide](https://mva.microsoft.com/en-us/training-courses/react-the-definitive-beginner-s-guide-16547)
   Introduction tutorial about how to build simple Pizza Bot application. Very recommended before continue digging to other links/tutorials.
-* [React GitHub](https://egghead.io/courses/react-fundamentals)
+* [Start Using React to Build Web Applications](https://egghead.io/courses/react-fundamentals)
 
 * [React Community GitHub](https://github.com/reactjs)
 
+
+ReactJs 
+Hacking with React.pdf
+Pro React.pdf (https://github.com/pro-react/kanban-app
+
+
+![React Lifecycle](http://image.slidesharecdn.com/7reduxchallenges-160128205435/95/7-redux-challenges-6-638.jpg?cb=1454014493 "React Lifecycle")
+
+---
+### ES6
+> ES6 / ECMAScript 6 / ECMAScript 2015 is an ECMAScript standard that was ratified in June 2015 with significant update to the Javascript language
+
+Outside of JSX (which you learned in the React tutorial), you may see some funny syntax in React examples. This is called ES6, and it’s the latest version of JavaScript so you may not have learned it yet. Since it’s so new, it’s not supported in browsers yet, but your bundler can translate it for you with the proper configuration.
+
+If you just want to get things done with React, you can skip learning ES6, or try to pick it up along the way.
+
+You may see some talk about ES6 classes being the preferred way to create React components. This is untrue. Most people (including Facebook) are using React.createClass().
+
+
+#### ES6 General Resources
+* [ECMAScript 6 — New Features: Overview & Comparison ](http://es6-features.org/)
+  Side by Side comparison between ECMAScript 6 vs ECMAScript 5.
+* [Top 10 ES6 Features Every Busy JavaScript Developer Must Know](https://webapplog.com/es6/)
+* [Convert ES6 to ES5 code in real time](https://babeljs.io/repl/)
+  You can use the Babel tool to convert your ES6 code to its equivalent plain ES5 Javascript.
+
+
 #### React Redux
-* [Getting started with redux](https://egghead.io/courses/getting-started-with-redux)
-https://github.com/tayiorbeii/egghead.io_redux_course_notes
+
+![Redux](http://prnt.sc/d1jafu "Redux")
+
+* [Getting started with redux](www.learnredux.com)
+[Companion full source code](https://github.com/wesbos/Learn-Redux-Starter-Files)
+
+* [Getting started with redux](https://egghead.io/courses/getting-started-with-redux) Once you are finished with this course be sure to check out part 2 below
+[Companion notes and source code](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
 
 * [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
-https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes
+[Companion notes and source code](https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes)
 
 * [Getting started with redux](http://redux.js.org/)
 
-#### React Online Playground
-* [React JSFiddle Integration with JSX](https://jsfiddle.net/reactjs/69z2wepo/)
+#### Webpack
+* [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i)
 
 
-https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i
-
-3.	Learn Webpack and React http://survivejs.com/  
+* Learn Webpack and React http://survivejs.com/  
 Good tutorial about how to build simple Kanban application. In those site, you not only learn ReactJs, but you also can learn other latest web technologies.
 
 
