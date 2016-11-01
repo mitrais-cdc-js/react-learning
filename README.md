@@ -101,9 +101,6 @@ Get companion notes and source code [here](https://github.com/tayiorbeii/egghead
 * [React Cheatsheet](https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-react-cheat-sheet-0-14-7.pdf)
 * [Redux Cheatsheet](https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-redux-cheat-sheet-3-2-1.pdf)
 
-
-https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-react-cheat-sheet-0-14-7.pdf
-
 ---
 ### Books
 * [Hacking with React](http://www.hackingwithreact.com/)
