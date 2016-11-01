@@ -81,7 +81,7 @@ You may see some talk about ES6 classes being the preferred way to create React 
 [Companion full source code](https://github.com/wesbos/Learn-Redux-Starter-Files)
 
 * **_Recommended_** [Complex State Management with redux](http://www.pro-react.com/materials/ch06-alt-redux.pdf)
-  ** For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book.** (Actually the official book cover Flux, but this link the alternative version using Redux)
+ For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book. (Actually the official book cover Flux, but this link cover alternative version using Redux)
  [Companion full source code](https://github.com/pro-react/kanban-app)
 
 * [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux)
