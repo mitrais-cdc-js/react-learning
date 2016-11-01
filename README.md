@@ -34,13 +34,13 @@ You don't need to learn all of these to be productive with React. Only move to t
 * [Hacking with React](http://www.hackingwithreact.com/)
  A hands-on tutorial to making a web app using React, React Router, ES6, Jest, and more. **Recommended**
 At the end of the forty-some tasks, hacking with React provides a great combination:
-- a progression of straightforward, short lessons toward a working example program,
-- an interesting application (not another To-Do app, thank FSM!),
-- a Howto for setting up some of the confusing Node.js tooling (webpack, ESLint),
-- introduction to testing with Jest,
-- advice about best Node/Javascript/coding practices,
-- a decent understanding of how all these tools work together, and of course,
-- a great walkthrough of the concepts behind React.
+  + a progression of straightforward, short lessons toward a working example program,
+  + an interesting application (not another To-Do app, thank FSM!),
+  + a Howto for setting up some of the confusing Node.js tooling (webpack, ESLint),
+  + introduction to testing with Jest,
+  + advice about best Node/Javascript/coding practices,
+  + a decent understanding of how all these tools work together, and of course,
+  + a great walkthrough of the concepts behind React.
 
 * [Start Using React to Build Web Applications](https://egghead.io/courses/react-fundamentals)
 
@@ -50,12 +50,7 @@ At the end of the forty-some tasks, hacking with React provides a great combinat
 
 ---
 ### Webpack
-* [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i)
-
-* Learn Webpack and React http://survivejs.com/  
-Good tutorial about how to build simple Kanban application. In those site, you not only learn ReactJs, but you also can learn other latest web technologies.
-
-
+* [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i) **Recommended for Webpack dummies**
 
 ---
 ### ES6
@@ -70,7 +65,7 @@ You may see some talk about ES6 classes being the preferred way to create React 
 
 #### ES6 General Resources
 * [ECMAScript 6 — New Features: Overview & Comparison ](http://es6-features.org/)
-  Side by Side comparison between ECMAScript 6 vs ECMAScript 5.
+  Side by Side comparison between ECMAScript 6 vs ECMAScript 5. **Recommended**
 * [Top 10 ES6 Features Every Busy JavaScript Developer Must Know](https://webapplog.com/es6/)
 * [Convert ES6 to ES5 code in real time](https://babeljs.io/repl/)
   You can use the Babel tool to convert your ES6 code to its equivalent plain ES5 Javascript.
@@ -86,7 +81,7 @@ You may see some talk about ES6 classes being the preferred way to create React 
 [Companion full source code](https://github.com/wesbos/Learn-Redux-Starter-Files)
 
 * [Complex State Management with redux](http://www.pro-react.com/materials/ch06-alt-redux.pdf)
-  For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book (Actually the official book cover Flux, but there is also the alternative version using Redux)
+  ** For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book. Recommended ** (Actually the official book cover Flux, but there is also the alternative version using Redux)
  [Companion full source code](https://github.com/pro-react/kanban-app)
 
 * [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux)
@@ -105,9 +100,9 @@ Get companion notes and source code in [here](https://github.com/tayiorbeii/eggh
 ---
 ### Books
 * [Hacking with React](http://www.hackingwithreact.com/)
-* [SurviveJS - Webpack and React](http://survivejs.com/)
+* [SurviveJS - Webpack and React](http://survivejs.com/) Build simple Kanban application. In those site, you not only learn ReactJs, but you also can learn other latest web technologies.
 * [Pro React: Cassio de Sousa Antonio](http://www.pro-react.com/)
-  https://github.com/pro-react/kanban-app
+[Companion full source code](https://github.com/pro-react/kanban-app)
 
 ---
 ### Contribution
