@@ -15,46 +15,12 @@ All software is built on a stack of technologies, and you need to understand eno
 
 You should learn, in this order, without skipping ahead or learning concurrently:
 
-- React itself
-- JavaScript “bundlers” (e.g. Webpack)
-- ES6
-- Redux
+1. React itself
+2. JavaScript “bundlers” (e.g. Webpack)
+3. ES6
+4. Redux
 
 You don't need to learn all of these to be productive with React. Only move to the next step if you have a problem that needs to be solved.
-
-### React Index
-
-- [React](#react)
-  - [React General Resources](#react-general-resources)
-  - [React Community](#react-community)
-  - [React Online Playground](#react-online-playground)
-  - [React Tutorials](#react-tutorials)
-    - [React General Tutorials](#react-general-tutorials)
-    - [React styling](#react-styling)
-    - [React Charts Tutorials](#react-charts-tutorials)
-- [Flux](#flux)
-  - [Flux General Resources](#flux-general-resources)
-  - [Flux Implementations](#flux-implementations)
-  - [Flux Tutorials](#flux-tutorials)
-- [Redux](#redux)
-  - [Redux General Resources](#redux-general-resources)
-  - [Redux Tools](#redux-tools)
-  - [Redux Tutorials](#redux-tutorials)
-- [Videos](#videos)
-  - [Video from Confs](#video-from-confs)
-  - [React.js Conf 2015 Playlist](#reactjs-conf-2015-playlist)
-  - [ReactEurope Conf 2015 Day 1 Playlist](#reacteurope-conf-2015-day-1-playlist)
-  - [ReactEurope Conf 2015 Day 2 Playlist](#reacteurope-conf-2015-day-2-playlist)
-  - [ReactRally Conf 2015 Playlist](#reactrally-conf-2015-playlist)
-  - [React.js Conf 2016 Playlist](#reactjs-conf-2016-playlist)
-  - [ReactRally Conf 2016 Playlist](#reactrally-conf-2016-playlist)
-  - [Video Tutorials](#video-tutorials)
-- [Books](#books)
-- [Demos](#demos)
-- [Example Apps](#example-apps)
-- [Real Apps](#real-apps)
-- [Contribution](#contribution)
-
 
 ---
 ### React itself
@@ -63,11 +29,11 @@ You don't need to learn all of these to be productive with React. Only move to t
 #### React General Resources
 
 * [React: The Definitive Beginner's Guide](https://mva.microsoft.com/en-us/training-courses/react-the-definitive-beginner-s-guide-16547)
-  Introduction tutorial about how to build simple Pizza Bot application. Recommended before continue digging to other links/tutorials.
+  Introduction tutorial about how to build simple Pizza Bot application. **Recommended before continue digging to other links/tutorials.**
 
-* [A hands-on tutorial to making a web app using React, React Router, ES6, Jest, and more.](http://www.hackingwithreact.com/)
-Hacking with React provides a great combination:
-
+* [Hacking with React](http://www.hackingwithreact.com/)
+ A hands-on tutorial to making a web app using React, React Router, ES6, Jest, and more. **Recommended**
+At the end of the forty-some tasks, hacking with React provides a great combination:
 - a progression of straightforward, short lessons toward a working example program,
 - an interesting application (not another To-Do app, thank FSM!),
 - a Howto for setting up some of the confusing Node.js tooling (webpack, ESLint),
@@ -76,21 +42,20 @@ Hacking with React provides a great combination:
 - a decent understanding of how all these tools work together, and of course,
 - a great walkthrough of the concepts behind React.
 
-At the end of the forty-some tasks (which take a while to complete if you actually do the work of understanding each lesson) you have a working React application, and a pretty good understanding of the basics of starting and building a React/Node application
-
-
-
 * [Start Using React to Build Web Applications](https://egghead.io/courses/react-fundamentals)
 
-* [React Community GitHub](https://github.com/reactjs)
-
-
-ReactJs 
-Hacking with React.pdf
-Pro React.pdf (https://github.com/pro-react/kanban-app
-
-
+#### React Lifecycle
 ![React Lifecycle](http://image.slidesharecdn.com/7reduxchallenges-160128205435/95/7-redux-challenges-6-638.jpg?cb=1454014493 "React Lifecycle")
+
+
+---
+### Webpack
+* [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i)
+
+* Learn Webpack and React http://survivejs.com/  
+Good tutorial about how to build simple Kanban application. In those site, you not only learn ReactJs, but you also can learn other latest web technologies.
+
+
 
 ---
 ### ES6
@@ -111,31 +76,28 @@ You may see some talk about ES6 classes being the preferred way to create React 
   You can use the Babel tool to convert your ES6 code to its equivalent plain ES5 Javascript.
 
 
-#### React Redux
+---
+### React Redux
 
-![Redux](http://image.prntscr.com/image/f2b339d480654640ae88348a6117e59b.jpg "Redux")
+![Redux](http://i.imgur.com/WZGxoj7.jpg "Redux")
 
 * [Getting started with redux](www.learnredux.com)
+	**Amazing step by step tutorial for learning Redux by developing simple Reduxtagram. Recommended**
 [Companion full source code](https://github.com/wesbos/Learn-Redux-Starter-Files)
 
 * [Complex State Management with redux](http://www.pro-react.com/materials/ch06-alt-redux.pdf)
   For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book (Actually the official book cover Flux, but there is also the alternative version using Redux)
  [Companion full source code](https://github.com/pro-react/kanban-app)
 
-* [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux) Once you are finished with this course from the creator of Redux, Dan Abramov, be sure to check out part 2 below
-[Companion notes and source code](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
+* [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux)
+ Get companion notes and source code in [here](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
+Once you are finished with this course from the creator of Redux, Dan Abramov, be sure to check out part 2 below
 
 * [Building React Applications with Idiomatic Redux - Part 2](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
-[Companion notes and source code](https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes)
+Get companion notes and source code in [here](https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes)
 
 * [Getting started with redux](http://redux.js.org/)
   The official and the only guide for Redux. Cover from basic until advance topic. Be sure to check the Recipes and FAQ section.
-
-#### Webpack
-* [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i)
-
-* Learn Webpack and React http://survivejs.com/  
-Good tutorial about how to build simple Kanban application. In those site, you not only learn ReactJs, but you also can learn other latest web technologies.
 
 
 #### References
