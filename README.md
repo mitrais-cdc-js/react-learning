@@ -80,9 +80,8 @@ You may see some talk about ES6 classes being the preferred way to create React 
 
 
 ---
-### React Redux
-
-![Redux](http://i.imgur.com/WZGxoj7.jpg "Redux")
+### Redux
+> Redux is a predictable state container for JavaScript apps
 
 * **_Recommended_** [Getting started with redux](www.learnredux.com)
 	**Amazing step by step tutorial for learning Redux by developing simple Reduxtagram**
@@ -103,6 +102,13 @@ Get companion notes and source code [here](https://github.com/tayiorbeii/egghead
   The official and the only guide for Redux. Cover from basic until advance topic. Be sure to check the Recipes and FAQ section.
 
 
+#### Redux Explained with Image
+
+![Redux](http://i.imgur.com/WZGxoj7.jpg "Redux")
+
+![Redux2](https://github.com/springload/react-redux-exercise/raw/master/readme/redux1.jpg "Redux2")
+
+![Redux Explained](https://github.com/springload/react-redux-exercise/raw/master/readme/redux3.png "Redux Explained")
 #### References
 ---
 ### Cheatsheet
