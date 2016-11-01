@@ -61,8 +61,25 @@ You don't need to learn all of these to be productive with React. Only move to t
 > JavaScript Library for building User Interfaces
 
 #### React General Resources
+
 * [React: The Definitive Beginner's Guide](https://mva.microsoft.com/en-us/training-courses/react-the-definitive-beginner-s-guide-16547)
-  Introduction tutorial about how to build simple Pizza Bot application. Very recommended before continue digging to other links/tutorials.
+  Introduction tutorial about how to build simple Pizza Bot application. Recommended before continue digging to other links/tutorials.
+
+* [A hands-on tutorial to making a web app using React, React Router, ES6, Jest, and more.](http://www.hackingwithreact.com/)
+Hacking with React provides a great combination:
+
+- a progression of straightforward, short lessons toward a working example program,
+- an interesting application (not another To-Do app, thank FSM!),
+- a Howto for setting up some of the confusing Node.js tooling (webpack, ESLint),
+- introduction to testing with Jest,
+- advice about best Node/Javascript/coding practices,
+- a decent understanding of how all these tools work together, and of course,
+- a great walkthrough of the concepts behind React.
+
+At the end of the forty-some tasks (which take a while to complete if you actually do the work of understanding each lesson) you have a working React application, and a pretty good understanding of the basics of starting and building a React/Node application
+
+
+
 * [Start Using React to Build Web Applications](https://egghead.io/courses/react-fundamentals)
 
 * [React Community GitHub](https://github.com/reactjs)
@@ -96,66 +113,43 @@ You may see some talk about ES6 classes being the preferred way to create React 
 
 #### React Redux
 
-![Redux](http://prnt.sc/d1jafu "Redux")
+![Redux](http://image.prntscr.com/image/f2b339d480654640ae88348a6117e59b.jpg "Redux")
 
 * [Getting started with redux](www.learnredux.com)
 [Companion full source code](https://github.com/wesbos/Learn-Redux-Starter-Files)
 
-* [Getting started with redux](https://egghead.io/courses/getting-started-with-redux) Once you are finished with this course be sure to check out part 2 below
+* [Complex State Management with redux](http://www.pro-react.com/materials/ch06-alt-redux.pdf)
+  For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book (Actually the official book cover Flux, but there is also the alternative version using Redux)
+ [Companion full source code](https://github.com/pro-react/kanban-app)
+
+* [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux) Once you are finished with this course from the creator of Redux, Dan Abramov, be sure to check out part 2 below
 [Companion notes and source code](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
 
-* [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
+* [Building React Applications with Idiomatic Redux - Part 2](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 [Companion notes and source code](https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes)
 
 * [Getting started with redux](http://redux.js.org/)
+  The official and the only guide for Redux. Cover from basic until advance topic. Be sure to check the Recipes and FAQ section.
 
 #### Webpack
 * [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i)
-
 
 * Learn Webpack and React http://survivejs.com/  
 Good tutorial about how to build simple Kanban application. In those site, you not only learn ReactJs, but you also can learn other latest web technologies.
 
 
-#### React Tutorials
-
-##### React General Tutorials
-* [React Tutorial](https://facebook.github.io/react/docs/tutorial.html)
-* [React.js Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals)
-* [React Primer](https://github.com/mikechau/react-primer-draft)
-* [ReactJS: Keep Simple. Everything can be a component!](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component)
-* [React.js Koans: Practical exercises that will help you learn React.js from square one](https://github.com/arkency/reactjs_koans)
-* [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
-* [LearnCode React Tutorials](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
-* [Thinkster React topics](https://thinkster.io/topics/react)
-* [React tutorial - Cloning Yelp](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/)
-* [Learn React by building the Hacker News front page](https://github.com/mking/react-hn)
-* [React.js in patterns](http://krasimirtsonev.com/blog/article/react-js-in-design-patterns)
+#### References
 
 ---
 ### Books
+* [Hacking with React](http://www.hackingwithreact.com/)
 * [SurviveJS - Webpack and React](http://survivejs.com/)
-
----
-### Example Apps
-* [isomorphic500 - Isomorphic JS app built with React and Fluxible](https://github.com/gpbl/isomorphic500)
-* [fil -  A playground for in-browser interpreters (Redux)](https://github.com/fatiherikli/fil)
-* [sound-redux - A Soundcloud client built with React / Redux](https://github.com/andrewngu/sound-redux)
-* [react-pomodoro - A Pomodoro timer for developers](https://github.com/afonsopacifer/react-pomodoro)
-* [Do - Notes management application built with React and Redux](https://github.com/1ven/do)
-
----
-### Real Apps
-* [reddit/reddit-mobile](https://github.com/reddit/reddit-mobile)
-* [khan/perseus](https://github.com/khan/perseus)
-* [mozilla/payments-ui](https://github.com/mozilla/payments-ui)
-* [webbylab/itsquiz-wall](https://github.com/webbylab/itsquiz-wall)
-* [brainfock/brainfock](https://github.com/brainfock/brainfock)
+* [Pro React: Cassio de Sousa Antonio](http://www.pro-react.com/)
+  https://github.com/pro-react/kanban-app
 
 ---
 ### Contribution
 Your contributions and suggestions are heartily♡ welcome. (✿◠‿◠)
-
 
 ---
 ### License
