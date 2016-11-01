@@ -28,11 +28,11 @@ You don't need to learn all of these to be productive with React. Only move to t
 
 #### React General Resources
 
-* [React: The Definitive Beginner's Guide](https://mva.microsoft.com/en-us/training-courses/react-the-definitive-beginner-s-guide-16547)
-  Introduction tutorial about how to build simple Pizza Bot application. **Recommended before continue digging to other links/tutorials.**
+* **_Recommended_** [React: The Definitive Beginner's Guide](https://mva.microsoft.com/en-us/training-courses/react-the-definitive-beginner-s-guide-16547)
+  Introduction tutorial about how to build simple Pizza Bot application.
 
-* [Hacking with React](http://www.hackingwithreact.com/)
- A hands-on tutorial to making a web app using React, React Router, ES6, Jest, and more. **Recommended**
+* **_Recommended_** [Hacking with React](http://www.hackingwithreact.com/)
+ A hands-on tutorial to making a web app using React, React Router, ES6, Jest, and more.
 At the end of the forty-some tasks, hacking with React provides a great combination:
   + a progression of straightforward, short lessons toward a working example program,
   + an interesting application (not another To-Do app, thank FSM!),
@@ -50,7 +50,7 @@ At the end of the forty-some tasks, hacking with React provides a great combinat
 
 ---
 ### Webpack
-* [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i) **Recommended for Webpack dummies**
+* **_Recommended_** [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i)
 
 ---
 ### ES6
@@ -64,8 +64,8 @@ You may see some talk about ES6 classes being the preferred way to create React 
 
 
 #### ES6 General Resources
-* [ECMAScript 6 — New Features: Overview & Comparison ](http://es6-features.org/)
-  Side by Side comparison between ECMAScript 6 vs ECMAScript 5. **Recommended**
+* **_Recommended_** [ECMAScript 6 — New Features: Overview & Comparison ](http://es6-features.org/)
+  Side by Side comparison between ECMAScript 6 vs ECMAScript 5.
 * [Top 10 ES6 Features Every Busy JavaScript Developer Must Know](https://webapplog.com/es6/)
 * [Convert ES6 to ES5 code in real time](https://babeljs.io/repl/)
   You can use the Babel tool to convert your ES6 code to its equivalent plain ES5 Javascript.
@@ -76,12 +76,12 @@ You may see some talk about ES6 classes being the preferred way to create React 
 
 ![Redux](http://i.imgur.com/WZGxoj7.jpg "Redux")
 
-* [Getting started with redux](www.learnredux.com)
-	**Amazing step by step tutorial for learning Redux by developing simple Reduxtagram. Recommended**
+* **_Recommended_** [Getting started with redux](www.learnredux.com)
+	**Amazing step by step tutorial for learning Redux by developing simple Reduxtagram**
 [Companion full source code](https://github.com/wesbos/Learn-Redux-Starter-Files)
 
-* [Complex State Management with redux](http://www.pro-react.com/materials/ch06-alt-redux.pdf)
-  ** For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book. Recommended ** (Actually the official book cover Flux, but there is also the alternative version using Redux)
+* **_Recommended_** [Complex State Management with redux](http://www.pro-react.com/materials/ch06-alt-redux.pdf)
+  ** For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book.** (Actually the official book cover Flux, but this link the alternative version using Redux)
  [Companion full source code](https://github.com/pro-react/kanban-app)
 
 * [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux)
