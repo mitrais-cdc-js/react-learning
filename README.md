@@ -16,7 +16,7 @@ All software is built on a stack of technologies, and you need to understand eno
 You should learn, in this order, without skipping ahead or learning concurrently:
 
 1. React itself
-2. JavaScript “bundlers” (e.g. Webpack)
+2. JavaScript “bundlers” (e.g. Webpack) and Debugging Tools
 3. ES6
 4. Redux
 
@@ -50,7 +50,15 @@ At the end of the forty-some tasks, hacking with React provides a great combinat
 
 ---
 ### Webpack
+> Webpack is module bundler for Javascript. Although there are a lot of similar task runner and bundler, React community usually use Webpack instead of the others (browserify, gulp, grunt)
+
 * **_Recommended_** [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.gy4alqs9i)
+
+---
+### Debugging
+
+* **_Recommended for Debugging_** [React Developer Tools] 
+* **_Recommended for Debugging_** [Redux Dev Tools](https://github.com/gaearon/redux-devtools)
 
 ---
 ### ES6
