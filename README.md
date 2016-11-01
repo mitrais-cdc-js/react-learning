@@ -85,24 +85,31 @@ You may see some talk about ES6 classes being the preferred way to create React 
  [Companion full source code](https://github.com/pro-react/kanban-app)
 
 * [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux)
- Get companion notes and source code in [here](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
+ Get companion notes and source code [here](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
 Once you are finished with this course from the creator of Redux, Dan Abramov, be sure to check out part 2 below
 
 * [Building React Applications with Idiomatic Redux - Part 2](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
-Get companion notes and source code in [here](https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes)
+Get companion notes and source code [here](https://github.com/tayiorbeii/egghead.io_idiomatic_redux_course_notes)
 
 * [Getting started with redux](http://redux.js.org/)
   The official and the only guide for Redux. Cover from basic until advance topic. Be sure to check the Recipes and FAQ section.
 
 
 #### References
+---
+### Cheatsheet
+* [React Cheatsheet](https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-react-cheat-sheet-0-14-7.pdf)
+* [Redux Cheatsheet](https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-redux-cheat-sheet-3-2-1.pdf)
+
+
+https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-react-cheat-sheet-0-14-7.pdf
 
 ---
 ### Books
 * [Hacking with React](http://www.hackingwithreact.com/)
 * [SurviveJS - Webpack and React](http://survivejs.com/) Build simple Kanban application. In those site, you not only learn ReactJs, but you also can learn other latest web technologies.
 * [Pro React: Cassio de Sousa Antonio](http://www.pro-react.com/)
-[Companion full source code](https://github.com/pro-react/kanban-app)
+Get companion source code [here](https://github.com/pro-react/kanban-app)
 
 ---
 ### Contribution
