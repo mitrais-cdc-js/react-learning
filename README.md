@@ -35,8 +35,7 @@ You don't need to learn all of these to be productive with React. Only move to t
  A hands-on tutorial to making a web app using React, React Router, ES6, Jest, and more.
 At the end of the forty-some tasks, hacking with React provides a great combination:
   + a progression of straightforward, short lessons toward a working example program,
-  + an interesting application (not another To-Do app, thank FSM!),
-  + a Howto for setting up some of the confusing Node.js tooling (webpack, ESLint),
+  + an interesting application (not another To-Do app),
   + introduction to testing with Jest,
   + advice about best Node/Javascript/coding practices,
   + a decent understanding of how all these tools work together, and of course,
