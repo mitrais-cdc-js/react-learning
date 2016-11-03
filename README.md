@@ -82,13 +82,19 @@ You may see some talk about ES6 classes being the preferred way to create React 
 ### Redux
 > Redux is a predictable state container for JavaScript apps
 
-* **_Recommended_** [Getting started with redux](www.learnredux.com)
+* **_Recommended_** [A Cartoon Guide to Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.3k23w6m18)
+	**High-level description of Redux, with cartoons**
+
+* **_Recommended_** [Getting started with redux](http://www.learnredux.com)
 	**Amazing step by step tutorial for learning Redux by developing simple Reduxtagram**
 [Companion full source code](https://github.com/wesbos/Learn-Redux-Starter-Files)
 
 * **_Recommended_** [Complex State Management with redux](http://www.pro-react.com/materials/ch06-alt-redux.pdf)
  For learning Redux, we can jump directly to Chapter 6 on amazing Pro React book. (Actually the official book cover Flux, but this link cover alternative version using Redux)
  [Companion full source code](https://github.com/pro-react/kanban-app)
+
+* **_Recommended_** [Simple Redux-Tutorial](https://github.com/happypoulp/redux-tutorial)
+ A file-based tutorial to Redux (click on each numbered .js file in the repo)
 
 * [Getting started with redux - Part 1](https://egghead.io/courses/getting-started-with-redux)
  Get companion notes and source code [here](https://github.com/tayiorbeii/egghead.io_redux_course_notes)
