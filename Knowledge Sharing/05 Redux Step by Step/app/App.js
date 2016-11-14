@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { render } from 'react-dom';
+import { connect, Provider } from 'react-redux';
 import bankStore from './bankStore';
 import bankActionCreators from './bankActionCreators';
 
@@ -36,35 +37,23 @@ BankApp.propTypes = {
   onWithdraw: PropTypes.func
 };
 
-
-
-class BankAppContainer extends Component {
-    componentDidMount() {
-      // subscribe will returns a function that unsubscribes the change listener
-      // see http://redux.js.org/docs/api/Store.html
-      this.unsubscribe = bankStore.subscribe(() =>
-        this.setState({balance: bankStore.getState().balance})
-      );
-
-    /* equivalent ES5:
-      this.unsubscribe = bankStore.subscribe(function () {
-        return this.setState({ balance: bankStore.getState().balance });
-    });*/
-    }
-
-    componentWillUnmount() {
-      this.unsubscribe();
-    }
-
-    render(){
-      return(
-        <BankApp
-          balance={ bankStore.getState().balance }
-          onDeposit={ (amount)=>bankStore.dispatch(bankActionCreators.depositIntoAccount(amount) )}
-          onWithdraw={ (amount)=>bankStore.dispatch(bankActionCreators.withdrawIntoAccount(amount) )}
-        />
-      )
-    }
+// Generate a container app by Mapping state and dispatch to props
+const mapStateToProps = (state) => {
+  return {
+    balance: state.balance
   }
+}
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onDeposit: (amount) => dispatch(bankActionCreators.depositIntoAccount(amount)),
+    onWithdraw: (amount) => dispatch(bankActionCreators.withdrawFromAccount(amount))
+  }
+}
+const BankAppContainer = connect(mapStateToProps, mapDispatchToProps)(BankApp)
 
-render(<BankAppContainer />, document.getElementById('root'));
+render(
+  <Provider store={bankStore}>
+    <BankAppContainer />
+  </Provider>,
+  document.getElementById('root')
+);
