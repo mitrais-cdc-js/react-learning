@@ -27,26 +27,38 @@ class BankApp extends Component {
           <button onClick={this.handleWithdraw.bind(this)}>Withdraw</button>
           <button onClick={this.handleDeposit.bind(this)}>Deposit</button>
         </div>
+
+        <div className="info" onClick={this.props.onToggle}>
+          <strong>Additional Info:</strong>
+          <div className={this.props.showInfo? 'info--visible' : 'info--closed'}>
+            <p><strong>Your account Manager:</strong> C. F. Frost </p>
+            <p><strong>Pre approved credit limit:</strong> $500,000.00 </p>
+          </div>
+        </div>
       </div>
     );
   }
 }
 BankApp.propTypes = {
   balance: PropTypes.number,
+  showInfo: PropTypes.bool,
   onDeposit: PropTypes.func,
-  onWithdraw: PropTypes.func
+  onWithdraw: PropTypes.func,
+  onToggle: PropTypes.func
 };
 
 // Generate a container app by Mapping state and dispatch to props
 const mapStateToProps = (state) => {
   return {
-    balance: state.balance
+    balance: state.balance,
+    showInfo: state.ui.showInfo,
   }
 }
 const mapDispatchToProps = (dispatch) => {
   return {
     onDeposit: (amount) => dispatch(bankActionCreators.depositIntoAccount(amount)),
-    onWithdraw: (amount) => dispatch(bankActionCreators.withdrawFromAccount(amount))
+    onWithdraw: (amount) => dispatch(bankActionCreators.withdrawFromAccount(amount)),
+    onToggle: () => dispatch(bankActionCreators.toggleInfo())
   }
 }
 const BankAppContainer = connect(mapStateToProps, mapDispatchToProps)(BankApp)

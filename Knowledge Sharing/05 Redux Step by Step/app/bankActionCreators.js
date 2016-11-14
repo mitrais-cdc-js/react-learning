@@ -21,6 +21,15 @@ const bankActionCreators = {
     };
   },
 
+  /**
+   * Toggle the visibility of the account detail
+   */
+  toggleInfo() {
+    return {
+      type: constants.TOGGLE_INFO
+    };
+  }
+
 };
 
 export default bankActionCreators;
