@@ -5,9 +5,6 @@ const initialState = {
 }
 
 const bankReducer = (state = initialState, action) => {
-  console.log('State: ' + JSON.stringify(state));   //temporary logging all states
-  console.log('Action: ' + JSON.stringify(action)); //temporary logging all actions
-
   switch (action.type) {
     case constants.CREATE_ACCOUNT:
       return initialState;
