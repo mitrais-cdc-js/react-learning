@@ -1,7 +1,7 @@
 ### **React Learning** 
 
 This react learning is based on Mitrais CDC JS experience and idea on [Pete Hunt react-howto](https://github.com/petehunt/react-howto)
-and [Dont-make-learning-react-more-difficult-than-it-is] (https://www.triplet.fi/blog/dont-make-learning-react-more-difficult-than-it-is)
+and [Dont-make-learning-react-more-difficult-than-it-is](https://www.triplet.fi/blog/dont-make-learning-react-more-difficult-than-it-is)
 
 React itself has a quite small API surface to learn, and in theory, it should be easy to grasp. Unfortunately, the learning resources are making things look far more complex than it actually is and if you’re new to React (or frontend in general) you may find the ecosystem confusing. There are a few reasons for this.
 
@@ -15,12 +15,24 @@ All software is built on a stack of technologies, and you need to understand eno
 
 You should learn, in this order, without skipping ahead or learning concurrently:
 
-1. React itself
-2. JavaScript “bundlers” (e.g. Webpack) and Debugging Tools
-3. ES6
+1. ES6
+2. React itself
+3. JavaScript “bundlers” (e.g. Webpack) and Debugging Tools
 4. Redux
 
-You don't need to learn all of these to be productive with React. Only move to the next step if you have a problem that needs to be solved.
+
+---
+### ES6
+> ES6 / ECMAScript 6 / ECMAScript 2015 is an ECMAScript standard that was ratified in June 2015 with significant update to the Javascript language
+
+Outside of JSX (which you learned in the React tutorial), you may see some funny syntax in React examples. This is called ES6, and it’s the latest version of JavaScript so you may not have learned it yet. Since it’s so new, it’s not supported in browsers yet, but your bundler can translate it for you with the proper configuration.
+
+#### ES6 General Resources
+* **_Recommended_** [ECMAScript 6 — New Features: Overview & Comparison ](http://es6-features.org/)
+  Side by Side comparison between ECMAScript 6 vs ECMAScript 5.
+* [Top 10 ES6 Features Every Busy JavaScript Developer Must Know](https://webapplog.com/es6/)
+* [Convert ES6 to ES5 code in real time](https://babeljs.io/repl/)
+  You can use the Babel tool to convert your ES6 code to its equivalent plain ES5 Javascript.
 
 ---
 ### React itself
@@ -58,25 +70,6 @@ At the end of the forty-some tasks, hacking with React provides a great combinat
 
 * **_Recommended for Debugging_** [React Developer Tools] 
 * **_Recommended for Debugging_** [Redux Dev Tools](https://github.com/gaearon/redux-devtools)
-
----
-### ES6
-> ES6 / ECMAScript 6 / ECMAScript 2015 is an ECMAScript standard that was ratified in June 2015 with significant update to the Javascript language
-
-Outside of JSX (which you learned in the React tutorial), you may see some funny syntax in React examples. This is called ES6, and it’s the latest version of JavaScript so you may not have learned it yet. Since it’s so new, it’s not supported in browsers yet, but your bundler can translate it for you with the proper configuration.
-
-If you just want to get things done with React, you can skip learning ES6, or try to pick it up along the way.
-
-You may see some talk about ES6 classes being the preferred way to create React components. This is untrue. Most people (including Facebook) are using React.createClass().
-
-
-#### ES6 General Resources
-* **_Recommended_** [ECMAScript 6 — New Features: Overview & Comparison ](http://es6-features.org/)
-  Side by Side comparison between ECMAScript 6 vs ECMAScript 5.
-* [Top 10 ES6 Features Every Busy JavaScript Developer Must Know](https://webapplog.com/es6/)
-* [Convert ES6 to ES5 code in real time](https://babeljs.io/repl/)
-  You can use the Babel tool to convert your ES6 code to its equivalent plain ES5 Javascript.
-
 
 ---
 ### Redux
@@ -117,8 +110,8 @@ Get companion notes and source code [here](https://github.com/tayiorbeii/egghead
 #### References
 ---
 ### Cheatsheet
-* [React Cheatsheet](https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-react-cheat-sheet-0-14-7.pdf)
-* [Redux Cheatsheet](https://github.com/mitrais-cdc-js/react-learning/raw/master/Cheatsheet/egghead-redux-cheat-sheet-3-2-1.pdf)
+* [React Cheatsheet](https://devhints.io/react)
+* [Redux Cheatsheet](https://devhints.io/redux)
 
 ---
 ### Books
